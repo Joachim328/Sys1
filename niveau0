@@ -10,6 +10,7 @@ Vous êtes maintenant connecté au niveau 0.
 Vous êtes sur le repertoire home et vous trouver un fichier text appelé readme qui contient le Mot de passe
 pour se connecter au bandit 1. Pour voir ce Mot de passe, taper la commande suivante : 
     ==>cat readme
+    Output : NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL   (le MDP pou le bandit1)
 Et vous trouverez le MDP pour le bandit1
 
 MPD:Mot de passe
