@@ -1,0 +1,27 @@
+ssh bandit9@bandit.labs.overthewire.org -p 2220
+bandit9@bandit:~$ strings data.txt | grep "="
+Output : 4========== the#
+        5P=GnFE
+        ========== password
+        'DN9=5
+         ========== is
+        $Z=_
+        =TU%
+        =^,T,?
+        W=y
+        q=W
+        X=K,
+        ========== G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+        &S=(
+        nd?=
+        
+ Donc le MDP de bandit 10 est G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+ 
+ 
+ Explication:
+  La commande strings data.txt | grep "=" affiche toutes les chaînes de caractères (séquences de caractères) présentes dans le 
+  fichier data.txt qui contiennent le caractère "=".
+  Plus précisément, strings est une commande Unix qui recherche et affiche toutes les chaînes de caractères imprimables présentes
+  dans un fichier. Ensuite, grep filtre ces chaînes de caractères pour n'afficher que celles qui contiennent le caractère "=".
+  Cette commande est utile pour extraire des informations spécifiques d'un fichier binaire ou d'un fichier texte contenant des caractères non imprimables
+ 
