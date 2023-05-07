@@ -1,0 +1,13 @@
+Vous devez connecter au bandit 3, taper la commande suivante:
+  ==> ssh bandit3@bandit.labs.overthewire.org -p 2220
+
+bandit3@bandit:~$ ls -a      (affiche le contenu du répertoire courant, y compris les fichiers et les dossiers cachés
+qui commencent par un point (.) dans leur nom)
+==>Output  :  .  ..  .bash_logout  .bashrc  inhere  .profile
+
+bandit3@bandit:~$ cd inhere  (entrer dans le dossier "inhere")
+
+bandit3@bandit:~/inhere$ ls -a
+.  ..  .hidden
+bandit3@bandit:~/inhere$ cat .hidden  ( Voir le contenue de ce fichier )
+Output ==> 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe  (MDP pour le bandit 4)
