@@ -1,9 +1,9 @@
-ssh bandit10@bandit.labs.overthewire.org -p 2220
-bandit10@bandit:~$ ls
+ssh bandit9@bandit.labs.overthewire.org -p 2220
+bandit9@bandit:~$ ls
 data.txt
-bandit10@bandit:~$
-bandit10@bandit:~$ base64 -d data.txt
-The password is 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM    ==>(MDP bandit 11)
+bandit9@bandit:~$
+bandit9@bandit:~$ base64 -d data.txt
+The password is 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM    ==>(MDP bandit 10)
 
 Explication:
   La commande base64 -d data.txt décode le contenu du fichier data.txt qui est encodé en base64 et affiche le résultat.
