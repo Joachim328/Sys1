@@ -1,0 +1,12 @@
+ssh bandit8@bandit.labs.overthewire.org -p 2220
+bandit8@bandit:~$ sort data.txt | uniq -u
+Output : EN632PlfYiZbn3PhVK3XOGSlNInNE00t (MDP du bandit9)
+
+Explication : 
+  La commande sort data.txt | uniq -u trie le contenu du fichier data.txt, supprime toutes les lignes en double et affiche 
+uniquement les lignes uniques.
+Plus précisément, sort trie les lignes du fichier data.txt dans l'ordre alphabétique, puis uniq supprime les doublons consécutifs
+et ne garde qu'une seule occurrence de chaque ligne. Enfin, l'option -u de uniq affiche uniquement les lignes uniques qui ne sont
+pas en double.
+Cette commande est utile pour éliminer les doublons dans des fichiers texte et obtenir une liste de lignes uniques.
+  
