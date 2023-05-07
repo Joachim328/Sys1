@@ -1,0 +1,15 @@
+niveau 6
+
+ssh bandit6@bandit.labs.overthewire.org -p 2220
+
+bandit6@bandit:~$ find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
+Output : /var/lib/dpkg/info/bandit7.password
+bandit6@bandit:/var/lib/dpkg/info$ cat bandit7.password
+Output : z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S (MDP bandit7)
+
+Explication : 
+-Est de type fichier (-type f)
+-Appartient à l'utilisateur bandit7 (-user bandit7)
+-Appartient au groupe bandit6 (-group bandit6)
+-A une taille de 33 octets (-size 33c)
+-Le 2>/dev/null à la fin de la commande redirige les erreurs (sortie d'erreur standard) vers le fichier /dev/null
