@@ -1,0 +1,8 @@
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+bandit7@bandit:~$ grep "millionth" data.txt
+Output : millionth       TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+
+
+Explication
+  La commande grep "millionth" data.txt recherche le mot "millionth" dans le contenu du fichier data.txt et affiche toutes les
+  lignes contenant ce mot.
