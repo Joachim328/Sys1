@@ -1,0 +1,24 @@
+Vous devez connecter au bandit 4, taper la commande suivante:
+  ==> ssh bandit4@bandit.labs.overthewire.org -p 2220
+
+bandit4@bandit:~$ ls       (affiche le contenu du répertoire courant, y compris les fichiers et les dossiers cachés
+qui commencent par un point (.) dans leur nom)
+==>Output  :  .  ..  .bash_logout  .bashrc  inhere  .profile
+
+Pour trouver le mot de passe pour le niveau suivant qui est stocké dans le seul fichier lisible par l'homme dans le répertoire 
+inhere , taper la commande suivante : 
+==> find /home/inhere -type f -readable ! -executable -exec file {} + | grep -i text | cut -d ":" -f1 | xargs cat
+
+  -type f : recherche uniquement les fichiers
+  -readable : recherche uniquement les fichiers lisibles par l'utilisateur courant
+  ! -executable : exclut les fichiers exécutables, car ils ne sont pas lisible par l'homme
+  -exec file {} + : exécute la commande "file" sur chaque fichier trouvé pour déterminer son type
+  grep -i text : filtre les résultats pour ne conserver que les fichiers de type "text"
+  cut -d ":" -f1 : extrait le nom du fichier à partir de la sortie de la commande "file"
+  xargs cat : affiche le contenu de chaque fichier trouvé
+  
+  Output : file07
+  
+  
+==> cat file07
+    Output ==> lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR  (MDP pour le bandit 5)
