@@ -1,0 +1,15 @@
+Pour se connecter au jeu en utilisant SSH, suivez ces étapes :
+
+Ouvrez un terminal sur votre ordinateur.
+Tapez la commande suivante : ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+Lorsque vous y êtes invité, entrez le mot de passe "bandit0" (sans les guillemets) et appuyez sur Entrée.
+
+Vous êtes maintenant connecté au niveau 0.
+
+Vous êtes sur le repertoire home et vous trouver un fichier text appelé readme qui contient le Mot de passe
+pour se connecter au bandit 1. Pour voir ce Mot de passe, taper la commande suivante : 
+    ==>cat readme
+Et vous trouverez le MDP pour le bandit1
+
+MPD:Mot de passe
