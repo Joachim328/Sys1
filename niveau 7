@@ -1,6 +1,6 @@
-ssh bandit8@bandit.labs.overthewire.org -p 2220
-bandit8@bandit:~$ sort data.txt | uniq -u
-Output : EN632PlfYiZbn3PhVK3XOGSlNInNE00t (MDP du bandit9)
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+bandit7@bandit:~$ sort data.txt | uniq -u
+Output : EN632PlfYiZbn3PhVK3XOGSlNInNE00t (MDP du bandit8)
 
 Explication : 
   La commande sort data.txt | uniq -u trie le contenu du fichier data.txt, supprime toutes les lignes en double et affiche 
