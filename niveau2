@@ -1,4 +1,4 @@
-Vous devez connecter au bandit 1, taper la commande suivante:
+Vous devez connecter au bandit 2, taper la commande suivante:
   ==> ssh bandit2@bandit.labs.overthewire.org -p 2220
 
 Pour afficher le contenu du fichier nommé "espaces dans ce nom de fichier" dans le répertoire home, vous pouvez utiliser 
