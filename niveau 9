@@ -1,0 +1,15 @@
+ssh bandit10@bandit.labs.overthewire.org -p 2220
+bandit10@bandit:~$ ls
+data.txt
+bandit10@bandit:~$
+bandit10@bandit:~$ base64 -d data.txt
+The password is 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM    ==>(MDP bandit 11)
+
+Explication:
+  La commande base64 -d data.txt décode le contenu du fichier data.txt qui est encodé en base64 et affiche le résultat.
+  Plus précisément, base64 est une commande Unix qui permet de convertir des données binaires en texte ASCII (base64 encoding), 
+  et vice versa (base64 decoding). En utilisant l'option -d, la commande base64 est utilisée pour décoder le contenu du fichier 
+  data.txt.
+
+  Cette commande est utile lorsque des données sont encodées en base64, par exemple pour sécuriser les échanges de données sur 
+  un réseau ou pour inclure des données binaires dans des formats de données textuelles
