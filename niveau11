@@ -1,0 +1,11 @@
+ssh bandit12@bandit.labs.overthewire.org
+mkdir /tmp/monnom123
+cp data.txt /tmp/monnom123
+cd /tmp/monnom123
+mv data.txt data.tar.gz
+tar -zxvf data.tar.gz
+  L'option -z spécifie que l'archive est compressée avec gzip, -x indique que nous voulons extraire le contenu de l'archive, -v 
+  indique que nous voulons une sortie verbosité et -f indique que l'archive à extraire est spécifiée dans le fichier data.tar.gz
+  
+cat data
+  Output : The password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
