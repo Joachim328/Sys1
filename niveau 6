@@ -1,5 +1,5 @@
-ssh bandit7@bandit.labs.overthewire.org -p 2220
-bandit7@bandit:~$ grep "millionth" data.txt
+ssh bandit6@bandit.labs.overthewire.org -p 2220
+bandit6@bandit:~$ grep "millionth" data.txt
 Output : millionth       TESKZC0XvTetK0S9xNwm25STk5iWrBvP
 
 
