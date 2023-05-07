@@ -1,4 +1,4 @@
-ssh bandit12@bandit.labs.overthewire.org
+ssh bandit11@bandit.labs.overthewire.org
 mkdir /tmp/monnom123
 cp data.txt /tmp/monnom123
 cd /tmp/monnom123
@@ -8,4 +8,4 @@ tar -zxvf data.tar.gz
   indique que nous voulons une sortie verbosité et -f indique que l'archive à extraire est spécifiée dans le fichier data.tar.gz
   
 cat data
-  Output : The password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+  Output : The password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv  (MDP bandit12)
