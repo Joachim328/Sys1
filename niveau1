@@ -4,5 +4,7 @@ Vous devez connecter au bandit 1, taper la commande suivante:
 
 Pour afficher le contenu du fichier nommé "-" dans le répertoire home, vous pouvez utiliser la commande suivante :
  ==>cat ~/-
-Cette commande affichera le contenu du fichier "-" situé dans le répertoire home. Vous trouverez le mot de passe pour le niveau suivant
-qui est stocké dans ce fichier.
+  Output : rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi   (MDP pour le bandit 2)
+
+Cette commande affichera le contenu du fichier "-" situé dans le répertoire home. Vous trouverez le mot de passe pour le niveau 
+suivant qui est stocké dans ce fichier.
